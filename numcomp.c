@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 //func declaration
-int display(int n1, int );
+int display(int , int );
 
 int main()
 {
