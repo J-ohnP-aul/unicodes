@@ -33,7 +33,7 @@ int main()
     // }
     
     //facttorial<<
-    fiboncci();
+    // fiboncci();
     // int num,fact=1;
     // printf("enter a number: ");
     // scanf("%d",&num);
@@ -41,5 +41,17 @@ int main()
     //     fact *=i;
     // printf("the fact of %d is:%d",num,fact);
 
-
+    int num[10];
+    printf("enter 10 numbers in oder; ");
+    for(int i=1 ; i<=10; i++)
+        scanf("%d",&num[i]);
+    int sum=0;
+    for(int i=0; i<=10; i++){
+        if(num[i]<0){
+            continue;
+        }else{
+            sum += num[i];
+        }
+    }
+    printf("sum = %d",sum);
 }
